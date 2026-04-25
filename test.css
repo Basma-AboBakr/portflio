@@ -478,38 +478,45 @@ form textarea{
 @media screen  and (max-width:391px){
 
 
-.form{
-   
-padding: 60px 0px 0px 0px;
+ .form {
 
-}
-form{
-    
-    width: 250px;
-    height: 250px;
-    padding: 2px 0px 0px 40px;
+        padding: 60px 0px 0px 0px;
 
-}
-form label{
-    font-size: 10px;
-   
-    padding: 0px 2px 0px 0px;
+    }
 
-}
+    form {
 
-form textarea{
-    width: 150px;
-    height: 50px;
-    margin-top: 5px;
+        width: 250px;
+        height: 200px;
+        padding: 20px 0px 0px 40px;
 
-}
-#send{
-    width: 100px;
-   
-    font-size: 10px;
-    
-    margin: 5px 0px 0px 50px;
-}
+    }
+
+    form label {
+        font-size: 10px;
+
+        padding: 0px 2px 0px 0px;
+
+    }
+    form input{
+        width: 100px;
+    }
+
+    form textarea {
+        width: 150px;
+        height: 50px;
+        margin-top: 5px;
+        font-size: 5px;
+
+    }
+
+    #send {
+        width: 100px;
+
+        font-size: 10px;
+
+        margin: 5px 0px 0px 50px;
+    }
 }
 .footer{
     width: 100%;
