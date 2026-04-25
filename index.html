@@ -1,0 +1,202 @@
+<!-- 
+    -responsive
+        -html5,viewport,css layout(flex)
+        -media query
+        -break points
+            -@media [type] and ([condition]) and ([condition]) {}
+            -@media screen and (min-width:) and (max-width:) {}
+            -@media (min-width:300px) and (max-width:480px) phone
+            -@media (min-width:481px) and (max-width:768px)
+            -@media (min-width:769px) and (max-width:1024px)
+        -em(parent element)
+        -rem(root element)
+    -project
+        -https://amiramohamed44.github.io/restaurant/
+        -https://amiramohamed44.github.io/portfolio-/
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Portfolio</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="test.css">
+
+    </head>
+    <body>
+    <!-- nav -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" >
+        <p class="navbar-brand" id="logo">BASMA</p>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#Home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#About-Me">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Our Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Contact">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- header section -->
+    <section class="header" id="Home">
+        <div class="text">
+        <h4>Hello, I am Basma</h4>
+        <p>Front End Developer</p>
+        <p>I create websits</p>
+        <a id="cv" href="##">Download CV</a>
+        <div class="icons">
+            <a href="https://www.linkedin.com/in/basma-abobakr-mahmoud-ahmed-8b17a7375?utm_source=share_via&utm_content=profile&utm_medium=member_android"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/Basma-AboBakr"> <i class="fa-brands fa-github"></i></a>
+            <a href="https://www.facebook.com/share/1G8d9cCm4B/"> <i class="fa-brands fa-facebook"></i></a>
+        </div>
+        </div>
+        <div class="imgg">
+        <img src="photo_2026-04-21_01-01-59.jpg" alt="image">
+        </div>
+    </section>
+    <!-- about -->
+    <div class="about-me" id="About-Me">
+        <h1 >About Me</h1>
+        <div class="text">
+            <p>I am a second-year Faculty of Science student, majoring in Mathematical Statistics and Programming. I have studied Front-End Development (HTML, CSS, JavaScript) and can build responsive, user-friendly web interfaces. I am passionate about improving my skills and working on real-world projects.</p>
+        </div>
+    </div>
+    <!-- skills -->
+    <section class="skills">
+        <h2 id="skills-head">My Skills</h2>
+        <div class="skill">
+            <p>HTML</p>
+            <div class="bg">
+                <div class="fg1">
+                    <p>90%</p>
+                </div>
+            </div>
+        </div>
+        <div class="skill">
+            <p>CSS</p>
+            <div class="bg">
+                <div class="fg2">
+                    <p>85%</p>
+                </div>
+            </div>
+        </div>
+        <div class="skill">
+            <p>JS</p>
+            <div class="bg">
+                <div class="fg3">
+                    <p>80%</p>
+                </div>
+            </div>
+        </div>
+        <div class="skill">
+            <p>React</p>
+            <div class="bg">
+                <div class="fg4">
+                    <p>75%</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- projects -->
+    <section class="projects-contianter" id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <img src="photo_1_2026-04-24_23-10-02.jpg" alt="imag">
+                <div class="text">
+                    <h3>The Caffeine Gallery</h3>
+                    <p>A visual-centric landing page for a coffee shop, showcasing menu items and professional photography in a grid format.</p>
+                    <a href="https://basma-abobakr.github.io/project1/">View Project</a>
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="photo_2_2026-04-24_23-10-02.jpg" alt="imag">
+                <div class="text">
+                    <h3> Elegant Product Showcase</h3>
+                    <p> A clean and modern UI card design featuring high-quality imagery and structured typography for e-commerce layouts.</p>
+                    <a href="https://basma-abobakr.github.io/project2/">View Project</a>
+                </div>
+            </div><div class="project">
+                <img src="photo_3_2026-04-24_23-10-02.jpg" alt="imag">
+                <div class="text">
+                    <h3>Personal Branding Header</h3>
+                    <p> A stylish navigation and profile section featuring hover effects, rounded elements, and a dark-themed aesthetic.</p>
+                    <a href="https://basma-abobakr.github.io/project3/">View Project</a>
+                </div>
+            </div><div class="project">
+                <img src="photo_4_2026-04-24_23-10-02.jpg" alt="img">
+                <div class="text">
+                    <h3>Interactive Tic-Tac-Toe UI</h3>
+                    <p>A vibrant game interface built with CSS Grid/Flexbox, focusing on layout precision and responsive design.</p>
+                    <a href="https://basma-abobakr.github.io/project4/">View Project</a>
+                </div>
+            </div><div class="project">
+                <img src="photo_5_2026-04-24_23-10-02.jpg" alt="img">
+                <div class="text">
+                    <h3>Student Records Portal</h3>
+                    <p> A functional data entry page featuring validated HTML forms and organized tables for displaying mathematical academic results.</p>
+                    <a href="https://basma-abobakr.github.io/project5/">View Project</a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="photo_6_2026-04-24_23-10-02.jpg" alt="">
+                <div class="text">
+                    <h3>Standard Web Wireframe</h3>
+                    <p> A foundational web layout demonstrating the effective use of semantic sections like Header, Nav, Sidebar, and Footer.</p>
+                    <a href="https://basma-abobakr.github.io/project6/">View Project</a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="Screenshot 2026-04-24 232811.png" alt="img">
+                <div class="text">
+                    <h3>CozySpace Furniture Home</h3>
+                    <p>A sophisticated home decor landing page featuring a hero section with transparent navigation, integrated branding, and a minimalist aesthetic designed for high-end furniture retail.</p>
+                    <a href="https://ranahalem00-droid.github.io/cozyspace/">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+<section class="contact" id="Contact">
+    <h2 id="cont">Contact Me</h2>
+    <div class="form">
+        <form action="##">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" required><br>
+            <label for="phone">Your Phone</label>
+            <input type="tel" id="phone" required><br>
+            <label for="email">Your E-mail</label>
+            <input type="email" id="email" required><br>
+            <textarea name="" id="">Your Message</textarea><br>
+            <input type="submit" value="send" id="send">
+        </form>
+    </div>
+    
+</section>
+<section class="footer">
+    <h3>&copy;Basma Abo Bakr</h3>
+    <h3>basmaabobakrmahmoudahmed@gmail.com</h3>
+</section>
+
+
+
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
