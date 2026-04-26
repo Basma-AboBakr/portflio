@@ -284,11 +284,11 @@ nav ul li a{
     border-radius: 20px;
 }.skills .skill .fg3{
     background-color: var(--secondColor);
-    width: 80%;
+    width: 40%;
     border-radius: 20px;
 }.skills .skill .fg4{
     background-color: var(--secondColor);
-    width: 75%;
+    width: 20%;
     border-radius: 20px;
 }
 .skills .skill .bg p{
