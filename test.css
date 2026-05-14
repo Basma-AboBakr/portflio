@@ -8,6 +8,9 @@ html{
     scroll-padding-top: 100px;
     scroll-behavior: smooth;
 }
+body{
+    overflow-x: hidden;
+}
 :root {
     --mainColor: rgb(0, 31, 61);
     --secondColor: rgb(237, 152, 95);
