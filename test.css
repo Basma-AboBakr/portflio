@@ -344,6 +344,7 @@ margin: 8% 0;
 .projects-contianter {
     padding: 4%;
     margin-bottom: 25px;
+    overflow: hidden;
 }
 
 .projects-contianter h2 {
